@@ -6,54 +6,55 @@
         <title>Javascript Drum Kit by James Byrne | Front End Web Developer in London</title>
         <meta name="description" content="A keyboard-operated drumkit built using vanilla Javascript">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link href="https://fonts.googleapis.com/css?family=Norican|Russo+One" rel="stylesheet">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="css/styles.css">
     </head>
  <body>
-
-
-  <div class="keys">
+<div id="error"></div>
+<h1>Keyboard Drumkit</h1>
+  <div class="keyboard">
     <div data-key="65" class="key">
       <kbd>A</kbd>
-      <span class="sound">clap</span>
+      <span class="sound">Clap</span>
     </div>
     <div data-key="83" class="key">
       <kbd>S</kbd>
-      <span class="sound">hihat</span>
+      <span class="sound">Hihat</span>
     </div>
     <div data-key="68" class="key">
       <kbd>D</kbd>
-      <span class="sound">kick</span>
+      <span class="sound">Kick</span>
     </div>
     <div data-key="70" class="key">
       <kbd>F</kbd>
-      <span class="sound">openhat</span>
+      <span class="sound">Openhat</span>
     </div>
     <div data-key="71" class="key">
       <kbd>G</kbd>
-      <span class="sound">boom</span>
+      <span class="sound">Boom</span>
     </div>
     <div data-key="72" class="key">
       <kbd>H</kbd>
-      <span class="sound">ride</span>
+      <span class="sound">Ride</span>
     </div>
     <div data-key="74" class="key">
       <kbd>J</kbd>
-      <span class="sound">snare</span>
+      <span class="sound">Snare</span>
     </div>
     <div data-key="75" class="key">
       <kbd>K</kbd>
-      <span class="sound">tom</span>
+      <span class="sound">Tom</span>
     </div>
     <div data-key="76" class="key">
       <kbd>L</kbd>
-      <span class="sound">tink</span>
+      <span class="sound">Tink</span>
     </div>
+  </div>
+  <div id="footer">
+  <p>A coding project by <a href="http://jamestbyrne.com">James Byrne</a></p>
   </div>
 
   <audio data-key="65" src="sounds/clap.wav"></audio>
@@ -67,9 +68,7 @@
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/drumkit.js"></script>
 
     </body>
 </html>
