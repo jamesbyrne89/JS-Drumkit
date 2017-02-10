@@ -1,0 +1,84 @@
+@import '../base/_variables';
+
+.keyboard {
+	width: 80%;
+	margin: auto;
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: space-around;
+  position: fixed;
+  left: 10%;
+  top: 60%;
+     @mixin at1200 {
+    top: 45%;
+    width: 90%;
+    left: 5%;
+    justify-content: space-between;
+  }
+}
+
+.keys {
+  display:flex;
+  flex:1;
+  flex-wrap: wrap;
+  min-height:100vh;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  position: relative;
+
+}
+
+.key {
+  border:1px solid white;
+  border-radius:0.75em;
+  margin:1rem;
+  font-size: 1.5rem;
+  padding: 0.5em 1.5em 1em 1.5em;
+  transition:all .07s;
+  width:140px;
+  text-align: center;
+  color:white;
+  background: transparent;
+  min-height: 50px;
+
+             @mixin at600 {
+    width: 90px;
+    padding: 1em 0.5em;
+  }
+         @mixin at425 {
+          font-size: 0.875rem;
+          min-height: 40px;
+          margin: 0.5em;
+  }
+}
+
+.playing {
+  transform:scale(1.1);
+  border-color: $greenHighlight;
+  border-width: 3px;
+  box-shadow: 0 0 10px #ffc600;
+  text-shadow:0 0 5px black;
+}
+
+kbd {
+  display: block;
+  font-size: 40px;
+  color: white;
+  font-weight: 800;
+  @mixin at1200 {
+    font-size: 2rem;
+  }
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.5em;
+         @mixin at425 {
+          font-size: 1rem;
+  }
+}

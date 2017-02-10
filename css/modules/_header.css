@@ -1,0 +1,48 @@
+.title-wrapper {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  z-index: 10;
+  mix-blend-mode: lighten;
+  top: 100px;
+  left: 10%;
+        @mixin at1200 {
+    top: 75px;
+    width: 90%;
+    left: 5%;
+  }
+       @mixin at425 {
+        top: 50px;
+  }
+}
+
+h1 {
+	font-size: 14em;
+	letter-spacing: 0.5em;
+	width: auto;
+	margin: 8% auto 5% auto ;
+	color: white;
+	text-align: left;
+	text-transform: none;
+	font-family: 'raleway', script;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+   position: relative;
+  z-index: 15;
+         @mixin at1200 {
+          font-size: 10em;
+  }
+         @mixin at425 {
+          font-size: 6rem;
+  }
+  span {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    display: block;
+           @mixin at425 {
+            font-size: 1rem;
+  }
+  }
+}
