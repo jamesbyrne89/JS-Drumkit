@@ -55,9 +55,9 @@
 
 .playing {
   transform:scale(1.1);
-  border-color: $greenHighlight;
+  border-color: $yellow;
   border-width: 3px;
-  box-shadow: 0 0 10px #ffc600;
+  box-shadow: 0 0 10px $yellow;
   text-shadow:0 0 5px black;
 }
 

@@ -2,6 +2,10 @@ html, body {
  height: 100vh;
 }
 
+::selection {
+  background: $yellow;
+}
+
 .body {
  background-color: $red ;
 position: relative;

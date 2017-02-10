@@ -9,6 +9,10 @@
   font-family: 'Roboto', helvetica, sans-serif;
 }html, body {
  height: 100vh;
+}::-moz-selection {
+  background: rgba(221, 204, 0, 1);
+}::selection {
+  background: rgba(221, 204, 0, 1);
 }.body {
  background-color: #e41c2d;
 position: relative;
@@ -144,9 +148,9 @@ transition: all ease-in-out .5s;
 }.playing {
   -webkit-transform:scale(1.1);
           transform:scale(1.1);
-  border-color: #00ff36;
+  border-color: rgba(221, 204, 0, 1);
   border-width: 3px;
-  box-shadow: 0 0 10px #ffc600;
+  box-shadow: 0 0 10px rgba(221, 204, 0, 1);
   text-shadow:0 0 5px black;
 }kbd {
   display: block;
