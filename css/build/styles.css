@@ -40,41 +40,41 @@ transition: all ease-in-out .5s;
   background:url(../../img/background-1.jpg) ;
   background-size: cover;
 }.title-wrapper {
-  width: 80%;
-  text-align: center;
-  margin: auto;
-  position: fixed;
-  z-index: 10;
-  mix-blend-mode: lighten;
-  top: 100px;
-  left: 10%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    z-index: 10;
+    mix-blend-mode: lighten;
+    top: 100px;
+    left: 10%;
+}@media (min-width: 425px) {.title-wrapper {
+		top: 50px;
+	}
 }@media (min-width: 1200px) {.title-wrapper {
 		top: 75px;
 		width: 90%;
 		left: 5%;
 	}
-}@media (min-width: 425px) {.title-wrapper {
-		top: 50px;
-	}
 }h1 {
-	font-size: 14em;
-	letter-spacing: 0.5em;
-	width: auto;
-	margin: 8% auto 5% auto ;
-	color: white;
-	text-align: left;
-	text-transform: none;
-	font-family: 'raleway', script;
-  font-weight: 800;
-  text-transform: uppercase;
-  display: inline-block;
-   position: relative;
-  z-index: 15;
-}@media (min-width: 1200px) {h1 {
-		font-size: 10em;
-	}
+    font-size: 14em;
+    letter-spacing: 0.5em;
+    width: auto;
+    margin: 8% auto 5% auto;
+    color: white;
+    text-align: left;
+    text-transform: none;
+    font-family: 'raleway', script;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    z-index: 15;
 }@media (min-width: 425px) {h1 {
 		font-size: 6rem;
+	}
+}@media (min-width: 1200px) {h1 {
+		font-size: 10em;
 	}
 }h1 span {
 	font-size: 1.5rem;
