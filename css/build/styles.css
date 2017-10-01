@@ -48,12 +48,12 @@ transition: all ease-in-out .5s;
   mix-blend-mode: lighten;
   top: 100px;
   left: 10%;
-}@media (max-width: 1200px) {.title-wrapper {
+}@media (min-width: 1200px) {.title-wrapper {
 		top: 75px;
 		width: 90%;
 		left: 5%;
 	}
-}@media (max-width: 425px) {.title-wrapper {
+}@media (min-width: 425px) {.title-wrapper {
 		top: 50px;
 	}
 }h1 {
@@ -70,17 +70,17 @@ transition: all ease-in-out .5s;
   display: inline-block;
    position: relative;
   z-index: 15;
-}@media (max-width: 1200px) {h1 {
+}@media (min-width: 1200px) {h1 {
 		font-size: 10em;
 	}
-}@media (max-width: 425px) {h1 {
+}@media (min-width: 425px) {h1 {
 		font-size: 6rem;
 	}
 }h1 span {
 	font-size: 1.5rem;
 	letter-spacing: 0.5rem;
 	display: block;
-}@media (max-width: 425px) {h1 span {
+}@media (min-width: 425px) {h1 span {
 		font-size: 1rem;
 	}
 }.keyboard {
@@ -96,7 +96,7 @@ transition: all ease-in-out .5s;
   position: fixed;
   left: 10%;
   top: 60%;
-}@media (max-width: 1200px) {.keyboard {
+}@media (min-width: 1200px) {.keyboard {
 		top: 45%;
 		width: 90%;
 		left: 5%;
@@ -136,11 +136,11 @@ transition: all ease-in-out .5s;
   color:white;
   background: transparent;
   min-height: 50px;
-}@media (max-width: 600px) {.key {
+}@media (min-width: 600px) {.key {
 		width: 90px;
 		padding: 1em 0.5em;
 	}
-}@media (max-width: 425px) {.key {
+}@media (min-width: 425px) {.key {
 		font-size: 0.875rem;
 		min-height: 40px;
 		margin: 0.5em;
@@ -157,7 +157,7 @@ transition: all ease-in-out .5s;
   font-size: 40px;
   color: white;
   font-weight: 800;
-}@media (max-width: 1200px) {kbd {
+}@media (min-width: 1200px) {kbd {
 		font-size: 2rem;
 	}
 }.sound {
@@ -167,7 +167,7 @@ transition: all ease-in-out .5s;
   color: white;
   font-weight: bold;
   letter-spacing: 0.5em;
-}@media (max-width: 425px) {.sound {
+}@media (min-width: 425px) {.sound {
 		font-size: 1rem;
 	}
 }.footer {
@@ -179,10 +179,10 @@ transition: all ease-in-out .5s;
 	bottom: 12.5%;
 	mix-blend-mode: none;
 	color: #fff;
-}@media (max-width: 1200px) {.footer {
+}@media (min-width: 1200px) {.footer {
 		bottom: 10%;
 	}
-}@media (max-width: 425px) {.footer {
+}@media (min-width: 425px) {.footer {
 		bottom: 6%;
 	}
 }.footer p {
@@ -193,10 +193,10 @@ transition: all ease-in-out .5s;
 	font-weight: bold;
 	position: relative;
 	z-index: 60;
-}@media (max-width: 600px) {.footer p {
+}@media (min-width: 600px) {.footer p {
 		font-size: 1rem;
 	}
-}@media (max-width: 425px) {.footer p {
+}@media (min-width: 425px) {.footer p {
 		font-size: 0.875rem;
 	}
 }.footer p a {
